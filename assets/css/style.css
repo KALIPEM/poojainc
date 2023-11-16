@@ -759,16 +759,29 @@ section {
 .cta {
   background: #2a2c39;
   padding: 80px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.praying-img{
+  position: absolute;
+  width: 500px;
+  height: auto;
+  z-index: -1;
+  top: -80px;
+  right: 220px;
 }
 
 .cta h3 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
+  z-index: 1;
 }
 
 .cta p {
   color: #fff;
+  z-index: 1;
 }
 
 .cta .cta-btn {
@@ -1605,6 +1618,11 @@ section {
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
+}
+
+.footer-logo{
+  height: 100px;
+  width: auto;
 }
 
 #footer h3 {
