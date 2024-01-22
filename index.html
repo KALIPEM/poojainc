@@ -513,7 +513,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <section id="testimonials" class="testimonials" style="display:none;">
       <div class="container">
 
         <div class="section-title" data-aos="zoom-out">
@@ -855,19 +855,20 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Edamana Madom, Mannady P O, Adoor, Pathanamthitta, Kerala, India.</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>contactvedicjyotishya@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+91 9995813930</p>
+                <p>+91 8714040109</p>
               </div>
 
             </div>
@@ -876,8 +877,9 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://api.web3forms.com/submit" method="post" role="form" class="php-email-form">
               <div class="row">
+                <input type="hidden" name="access_key" value="39c7b8c9-cc7b-4a0b-a943-fc802fa06233">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
@@ -886,7 +888,7 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" style="display: none;">
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
