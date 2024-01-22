@@ -816,6 +816,13 @@ section {
     align-items: center;
     justify-content: flex-end;
   }
+  
+}
+
+@media (max-width: 600px){
+  .praying-img{
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
